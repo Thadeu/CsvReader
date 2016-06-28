@@ -6,6 +6,7 @@ Class para ler arquivos CSV pelo PHP
 
 * Composer.json
 ```
+composer require tadeuu/csv_reader_php
 ```
 
 
