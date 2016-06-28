@@ -2,22 +2,27 @@
 
 Class para ler arquivos CSV pelo PHP
 
-# Como Usar
+## Como Usar
 
 * Composer.json
 ```
 composer require tadeuu/csv_reader_php
 ```
 
+* Namespace
 
 ```
 use ThadeuEsteves\Csv;
 ```
 
+* Lendo arquivo
+
 ```
 $file = "file.csv";
 $arr = Csv::read($file);
 ```
+
+* Imprimindo
 
 ```
 print_r($arr);
