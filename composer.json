@@ -1,0 +1,21 @@
+{
+  "name": "tadeuu/csv_reader_php",
+  "description": "Read File CSV",
+  "authors": [
+    {
+      "name": "Thadeu Esteves Jr",
+      "email": "tadeuu@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [],
+    "psr-4": {
+      "ThadeuEsteves\\": "src/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpmd/phpmd": "@stable",
+    "squizlabs/php_codesniffer": "2.*"
+  }
+}
