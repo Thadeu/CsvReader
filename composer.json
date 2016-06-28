@@ -13,7 +13,9 @@
       "ThadeuEsteves\\": "src/"
     }
   },
-  "require": {},
+  "require": {
+    "php": "^5.3.3 || ^7.0",
+  },
   "require-dev": {
     "phpmd/phpmd": "@stable",
     "squizlabs/php_codesniffer": "2.*"
